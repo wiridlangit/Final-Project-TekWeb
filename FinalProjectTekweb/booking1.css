@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Merriweather Sans', sans-serif;   
+    weight:100%;
+    height:100%;
+    background: linear-gradient(53.45deg, #EEF7BA -3.95%, #D8C6EA 85.99%);
+}
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 100%;
+    background: linear-gradient(53.45deg, #EEF7BA -3.95%, #D8C6EA 85.99%);
+}
+.container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing:border;
+    margin-top: 8vh;
+    border-radius:2vh;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter:blur(5px);
+    height:100%;
+}
+.bookhead{
+    font-size: 2em;
+    margin: 2vw;
+    display: flex;
+    justify-content: center;
+}
+.input_name{
+    margin: 0px 2vw 0px 2vh;    
+}
+.input_booking{
+    display: flex;
+    justify-content: center;
+    padding:0 4vw 0 4vw;
+    font-size: 1em;
+}
+input[type=text], select{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 2vh 3vw;
+    margin: 1vh 0;
+    display: inline-block;
+    border: none;
+    border-radius: 0.5vh;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+input[type=text]:hover{
+    box-shadow: 0 10px 20px rgba(41, 138, 96, 0.445);
+}
+input[type=number], select{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 2vh 3vw;
+    margin: 2vh 0;
+    display: inline-block;
+    border: none;
+    border-radius: 0.5vh;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+input[type=number]:hover{
+    box-shadow: 0 10px 20px rgba(41, 138, 96, 0.445);
+}
+h1{
+    font-size: 1.2em;
+}
+.kelastiket{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding-top: 3vh;
+}
+.headticket{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    text-align: center;
+}
+.input_ticket{
+    display: flex;
+    flex-direction: column;
+}
+.input_value_ticket{
+    display: flex;
+    justify-content:center;
+    padding:2vw;
+}

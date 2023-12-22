@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+html{
+    scroll-behavior: smooth;
+    width:100%;
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-image: url("bg-booking.svg"); 
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    font-family: 'Poppins', sans-serif;
+}
+.container_all{
+    display: flex;
+    justify-content: center;
+    padding:2.5vw 10vw 2.5vw 10vw;
+}
+.input_container{
+    display: flex;
+    flex-direction: column;
+    padding:2vw;
+}
+.container{
+    justify-content: space-evenly;
+    display: flex;
+    box-sizing:border;
+    border-radius:3vw;
+    box-shadow:0px 0px 8px 0px  rgba(26, 33, 46, 0.6);
+    background:rgba(0, 0, 0, 0.436);
+    backdrop-filter: blur(10px);
+}
+.img-tulus-booking{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    max-width: 17vw;
+    max-height: 10vw;
+}
+.dates-div{
+    display: flex;
+}
+.dates{
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+.content-header-tanggal{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.436);
+    justify-content: space-evenly;
+    padding:1vw;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+}
+.content-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.436);
+}
+.dates-header{
+    display: flex;
+    color:white;
+    justify-content: center;
+    font-weight: 600;
+}
+.content-body{
+    display: flex;
+    flex-direction: row;
+}
+.location-header{
+    padding:1vw 2vw;
+}
+.content-location-header{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.436);
+    color:white;
+    text-align: center;
+    font-weight: 600;
+    border-top-right-radius:2vw ;
+}
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tulus-booking-content{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    border-radius: 2vw;
+    background-color:rgba(109, 109, 109, 0.111);
+}
+
+.bookhead{
+    font-size: 1.8vw;
+    padding:2vw 0vw 2vw 0vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.input_name{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-weight: 500;
+}
+.input_booking{
+    display: flex;
+    flex-direction: column;
+}
+.tulus-booking{
+    align-self: center;
+    max-width:14vw;
+    max-height:100%;
+}
+input[type=text], select{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-size: 1vw;
+    padding: 1vw 2vw;
+    margin: 0.8vw 0;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    border:none;
+    border-radius: 3vw;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+input[type=text]:hover{
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.445);
+
+}
+input[type=number], select{
+    background-color: rgba(255, 255, 255, 0.2);;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    width: 100%;
+    padding: 1vw 2vw;
+    margin: 0.8vw 0;
+    display: inline-block;
+    border: none;
+    border-radius: 3vw;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+input[type=number]:hover{
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.445);
+}
+h1{
+    font-size: 1.2vw;
+}
+.kelastiket{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4vw;
+    color:white;
+    margin:0vh 0vh 1vw 0vh;
+}
+.headticket{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+}
+.input_ticket1 label{
+    padding:2.5vw;
+}
+.input_ticket2 label{
+    padding:2.5vw;
+}
+.input_ticket1{
+    padding-bottom: 0.5vw;
+}
+.input_ticket2{
+    padding-bottom: 0.5vw;
+}
+.input_value_ticket{
+    display: flex;
+    justify-content:center;
+}
+
+.btn-primary{
+    background-color: rgba(0, 0, 0, 0.616);
+    color:rgb(255, 255, 255);
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+    border:none;
+}
+.line{
+    margin: 2vh 0vh 2vh 0vh;
+    border-bottom: 0.1vw solid rgb(212, 212, 212);
+    display: flex;
+    align-self: center;
+    width:100%;
+    height:0.3vw;
+}
+.btn-primary:hover{
+    box-shadow: 0 10px 20px rgba(41, 138, 96, 0.445) !important; 
+    transform: translateY(-7px);
+    background-color: rgb(0, 255, 170);
+}
+.input_value_ticket .btn-primary:hover{
+    box-shadow: 0 10px 20px rgba(41, 138, 96, 0.445) !important; 
+    transform: translateY(-7px);
+    background:  linear-gradient(90deg, #00dbde ,#fc00ff);
+}
+.btn-primary:focus:active{  
+    background-color: rgb(0, 255, 119) !important;
+}

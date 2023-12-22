@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    width:100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.content_logo_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content_logo_text p1{
+    color:white;
+    font-weight: 600;
+    font-size: 5vw;
+}
+.content_logo_text p{
+    color:white;
+    font-size: 2.5vw;
+}
+.content_logo{
+    justify-content: space-around;
+    padding:6vw;
+    display: flex;
+    position: relative;
+}
+
+.logo_page{
+    background-image: url("bg_home.png");    
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    font-family: 'Poppins', sans-serif;
+}
+.container_all{
+    background-image: url("bg.svg");    
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    font-family: 'Poppins', sans-serif;
+}
+.container_power_all{
+    display: flex;
+    padding:5vw 15vw 0 15vw;
+}
+.container_power{
+    display :flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-evenly;
+    padding:1vw;
+    width: 100%;
+    height:100%;
+}
+.power_text{
+    padding-bottom:3vw;
+}
+.power_text img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1.2vw;
+    height: auto;
+}
+.logo_power img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6vw;
+    height: auto;
+}
+.powered-by{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon_logo{
+    width: 38vw;
+    height: 38vw;
+}
+.star1{
+    position:absolute;
+    width: 5vw;
+    height:5vw;
+    top:80vw;
+}
+.star2{
+    position:absolute;
+    width:15vw ;
+    height:15vw;
+    top:85vw;
+    left:70vw;
+}
+.star3{
+    position:absolute;
+    width:8vw ;
+    height:8vw;
+    top:93vw;
+    left:44vw;
+}
+
+.text1{
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+.tulus_header{
+    font-size: 1.8vw;
+    font-weight: 600;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.759);
+}
+.tulus p1{
+    font-size: 1.8vw;
+    background: linear-gradient(90deg, #00dbde ,#fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tulus p2{
+    font-size: 1.8vw;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.759);
+}
+.tulus{
+    max-width:27vw;
+    max-height:100%;
+    border-radius: 1.2vw;
+}
+.now_playing{
+    display: flex;
+    color:white;
+    padding-bottom: 1.5vw;
+    justify-content: space-between;
+    margin-bottom: 1vw;
+}
+.text{
+    background: linear-gradient(90deg, #00dbde ,#fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.8vw;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.759);
+}
+.container_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content_container{
+    box-shadow:0px 0px 8px 0px  rgba(26, 33, 46, 0.6);
+    background:rgba(255, 255, 255, 0.092);
+    backdrop-filter: blur(10px);
+    display :flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-evenly;
+    border-radius:1.5vw;
+    padding:2.5vw;
+    width: 100%;
+    height:100%;
+}
+.concertpage{
+    padding:2vw;
+}
+.homepage{
+    z-index: 4;
+    padding:7vw 12vw;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.gambar{
+    display: flex;
+}
+.content{
+    padding-right: 2vw;
+    justify-content: center;
+    text-align:left;
+    flex-direction: column;
+    display: flex;
+}
+.text_fav1{
+    font-size: 1.75vw;
+}
+.text_fav2{
+    background: linear-gradient(90deg, #fc00ff,#00dbde);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.2);
+}
+.tulus_text1{
+    font-family: 'Poppins', sans-serif;
+    text-align:left;
+    font-size: 7vw;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.759);
+}
+.tulus_text2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    font-weight: 500;
+}
+.tulus_text3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+}
+.pesantiket{
+    text-align: center;
+    justify-content: center;
+    padding:2vw;
+    color:white;
+    cursor: pointer;
+    border:none;
+    background: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw; 
+    border-radius: 0.8vw;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+.pesantiket:hover{
+    background:  linear-gradient(90deg, #00dbde ,#fc00ff);
+    transform: translateY(-6px);
+    color:#fff;
+    box-shadow: 0 10px 20px rgba(87, 252, 255, 0.445);
+}
+.upcoming_page{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.75vw;
+    text-align: center;
+    padding:4vw;
+}
+.container_upcoming_page{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding:6vw;
+}
+img.pamungkas{
+    background-color:white ;
+}
+img.hindia{
+    background-color:white ;
+}
+img.dewa19{
+    background-color:white ;
+}
+.container_up_content{  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card_artis{
+    width: 23vw;
+    height: 30vw;
+    border-radius: 1.8vw;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .25s ease;
+    backface-visibility: hidden;
+}
+.card_artis:hover{
+    transform: scale(.9);
+}
+.card_artis:hover:after{
+    height: 10vw;
+}
+.card_artis:hover .text_artis p{
+    margin-bottom: 1vw;
+    opacity: 1;
+}
+.card_artis:after{
+    width: 100%;
+    content:'';
+    left:0px;
+    bottom: 0px;
+    height: 150px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    z-index: 2;
+    transition: all .25s ease;
+}
+.card_artis img{
+    height: 100%;
+    z-index: 1;
+    transition: all .25s ease;
+}
+.card_artis .text_artis{
+    z-index: 3;
+    position: absolute;
+    bottom:0px;
+    color:rgb(255, 255, 255);
+    padding:20px;
+    padding-bottom:0;
+}
+.card_artis .text_artis p{
+    font-size: .8vw;
+    opacity: 0;
+    margin-bottom: -170px;
+    transition:all .25s ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.text_artis{
+    margin-bottom: 0px;
+    opacity: 1;
+    color:rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+}
+.container{
+    padding:10vw 12vw 10vw 12vw;
+}
+.row{
+    background-color: black;
+}
+.contact-logo{
+    display: flex;
+    font-size: 1.2vw;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+}
+.footer-col h4{
+    text-align: justify;
+}
+.social-links{
+    display: flex;
+    justify-content: space-between;
+}
+.social-links i{
+    font-size:2.4vw;
+    align-items: center;
+}
+.social-links a{
+    color:white;
+    padding: 0px 2vw 0px 0.5vw;
+    align-items: center;
+    justify-content: center;
+}
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-size: 2vw;
+    padding: 3vw 4vw 3vw 4vw;
+}
+.rainbow-text p1{
+    font-size: 2vw;
+    font-weight: 600;
+}
+.rainbow-text p2{
+    font-size: 2vw;
+    font-weight: 800;
+    background: linear-gradient(160deg, #fc00ff,#00dbde);
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-text{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3.5vw;
+}
+.contact-text p{
+    font-size: 1vw;
+}
+.text-corner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-corner p{
+    font-weight: 500;
+    color:rgb(231, 231, 231);
+}
+.line{
+    border-left: 2.5px solid white;
+    border-radius: 10px;
+    margin:10px 0 10px 0;
+}
